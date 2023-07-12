@@ -1,4 +1,4 @@
-import { styled } from "styled-components"
+import styled from 'styled-components'
 
 export const Container = styled.div`
 
@@ -18,9 +18,9 @@ export const MovieList = styled.ul`
 export const Movie = styled.li`
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 
-    img{
+   img{
         width: 180px;
         border-radius: 1rem;
         margin-bottom: 2rem;
