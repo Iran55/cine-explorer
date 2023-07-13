@@ -1,44 +1,16 @@
 import { Container, MovieList, Movie } from "./styles";
+import { useState, useEffect  } from "react";
 
 function Home() {
 
-    const movies = [
-        {
-          id:1,
-          title:'teste1',
-          image_url: 'https://cdn.ome.lt/1_qR1Az7HVWQMd6X7jowZrV0ixQ=/770x0/smart/uploads/conteudo/fotos/marvels_spider-man_2_hq_capa_completa.jpg'
-        },
-        {
-          id:2,
-          title:'teste2',
-          image_url: 'https://cdn.ome.lt/1_qR1Az7HVWQMd6X7jowZrV0ixQ=/770x0/smart/uploads/conteudo/fotos/marvels_spider-man_2_hq_capa_completa.jpg'
-        },
-        {
-          id:3,
-          title:'teste3',
-          image_url: 'https://cdn.ome.lt/1_qR1Az7HVWQMd6X7jowZrV0ixQ=/770x0/smart/uploads/conteudo/fotos/marvels_spider-man_2_hq_capa_completa.jpg'
-        },
-        {
-          id:4,
-          title:'teste2',
-          image_url: 'https://cdn.ome.lt/1_qR1Az7HVWQMd6X7jowZrV0ixQ=/770x0/smart/uploads/conteudo/fotos/marvels_spider-man_2_hq_capa_completa.jpg'
-        },
-        {
-          id:5,
-          title:'teste3',
-          image_url: 'https://cdn.ome.lt/1_qR1Az7HVWQMd6X7jowZrV0ixQ=/770x0/smart/uploads/conteudo/fotos/marvels_spider-man_2_hq_capa_completa.jpg'
-        },
-        {
-          id:6,
-          title:'teste2',
-          image_url: 'https://cdn.ome.lt/1_qR1Az7HVWQMd6X7jowZrV0ixQ=/770x0/smart/uploads/conteudo/fotos/marvels_spider-man_2_hq_capa_completa.jpg'
-        },
-        {
-          id:7,
-          title:'teste3',
-          image_url: 'https://cdn.ome.lt/1_qR1Az7HVWQMd6X7jowZrV0ixQ=/770x0/smart/uploads/conteudo/fotos/marvels_spider-man_2_hq_capa_completa.jpg'
-        }
-    ]
+    const [movies, setMovies] = useState([])
+
+    useEffect(() =>{
+
+      fetch('https://api.themoviedb.org/3/movie/popular?api_key=<<api_key>>&language=en-US&page=1')
+
+    })
+
     return (
         <Container>
             <h1>Filmes</h1>
