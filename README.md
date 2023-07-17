@@ -1,25 +1,21 @@
-# React Project - MovieDB API
+# Projeto React - MovieDB API
 
-This project uses React library to consume a list of popular movies from the MovieDB API. 
+Este projeto usa a biblioteca React para consumir uma lista de filmes populares da API MovieDB.
 
-You can also view details from a movie when you click on it.
-
-[Tutorial link](https://youtu.be/b6N29J_utw4)
-
+Você também pode visualizar os detalhes de um filme ao clicar nele.
 
 <img width="600" alt="Movie List" src="https://user-images.githubusercontent.com/47362960/158064199-a45b266a-958d-465a-ad14-a2acfbb96f94.png">
 <img width="600" alt="Movie Details" src="https://user-images.githubusercontent.com/47362960/158064211-f333a1f4-6e5a-4eef-b2d3-cd679d820dbd.png">
 
 
-## Technologies
+## Tecnologias
 - ReactJS
 - React Router
 - Styled Components
 
-## How to run this project
-Clone or download it as ZIP file. Open your terminal, go to the project folder and run `npm install` to install all dependencies. 
-To run the project, run `npm start` and it'll open on localhost.
+## Como executar este projeto
+Clone ou baixe-o como arquivo ZIP. Abra seu terminal, vá até a pasta do projeto e execute `npm install` para instalar todas as dependências.
+Para executar o projeto, execute `npm start` e ele será aberto no localhost
 
-Made with ❤️ by Giovanna Moeller.
 
 
